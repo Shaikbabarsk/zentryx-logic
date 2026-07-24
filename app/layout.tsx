@@ -68,6 +68,15 @@ export const metadata: Metadata = {
 
 
 
+  verification:{
+
+    google:
+    "vGOdB59eDNZ68AkqcumzvgS4_aGcKCWOCjkFXxe-svw"
+
+  },
+
+
+
   openGraph:{
 
 
@@ -120,9 +129,7 @@ children: React.ReactNode;
 
 return (
 
-
 <html lang="en">
-
 
 <body>
 
@@ -130,9 +137,7 @@ return (
 
 </body>
 
-
 </html>
-
 
 );
 
