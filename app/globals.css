@@ -1412,20 +1412,28 @@ h2 {
 
 
 }
-/* ================= PREMIUM AI THEME UPDATE ================= */
+/* ================= PREMIUM ZENTRYX AI THEME ================= */
 
 
 body {
-  background:#030712;
+
+  background:
+  radial-gradient(circle at top left,#111827,#030712 45%);
+
   color:white;
+
 }
 
 
-/* Navbar */
+/* Navbar Premium */
 
 .navbar {
 
-  background:rgba(3,7,18,0.75);
+  background:rgba(3,7,18,.65);
+
+  border-bottom:1px solid rgba(56,189,248,.15);
+
+  backdrop-filter:blur(20px);
 
 }
 
@@ -1433,6 +1441,9 @@ body {
 .logo {
 
   color:#38bdf8;
+
+  text-shadow:
+  0 0 20px rgba(56,189,248,.5);
 
 }
 
@@ -1444,100 +1455,94 @@ body {
 }
 
 
+
 /* Headings */
 
 h2 {
 
   color:#38bdf8;
 
+  text-shadow:
+  0 0 20px rgba(56,189,248,.35);
+
 }
 
 
-/* Hero */
+
+/* Hero AI Glow */
+
 
 .hero::before {
 
-  background:#6366f1;
+  background:
+  linear-gradient(
+  135deg,
+  #2563eb,
+  #7c3aed
+  );
+
+  opacity:.35;
 
 }
+
 
 
 .hero h1 {
 
-  background:linear-gradient(
-    90deg,
-    #38bdf8,
-    #6366f1
-  );
+background:
+linear-gradient(
+90deg,
+#38bdf8,
+#818cf8,
+#c084fc
+);
 
-  -webkit-background-clip:text;
 
-  color:transparent;
+-webkit-background-clip:text;
+
+color:transparent;
 
 }
 
 
-/* Buttons */
+
+/* Premium Buttons */
+
 
 button {
 
-  background:linear-gradient(
-    135deg,
-    #2563eb,
-    #7c3aed
-  );
+background:
+linear-gradient(
+135deg,
+#2563eb,
+#7c3aed
+);
+
+box-shadow:
+0 10px 30px rgba(99,102,241,.35);
 
 }
 
 
 button:hover {
 
-  background:#38bdf8;
+background:
+linear-gradient(
+135deg,
+#38bdf8,
+#6366f1
+);
 
-  color:#030712;
-
-}
-
-
-/* Sections */
-
-
-.about {
-
-  background:#070b18;
+transform:
+translateY(-6px)
+scale(1.03);
 
 }
 
 
-.services {
 
-  background:#030712;
+/* Glass Cards */
 
-}
-
-
-.projects {
-
-  background:#070b18;
-
-}
-
-
-.careers {
-
-  background:#030712;
-
-}
-
-
-.contact {
-
-  background:#070b18;
-
-}
-
-
-/* Cards */
 
 .about-card,
 .service-card,
@@ -1545,11 +1550,30 @@ button:hover {
 .contact-item,
 .career-box {
 
-  background:rgba(255,255,255,0.05);
 
-  border-color:rgba(56,189,248,0.25);
+background:
+linear-gradient(
+145deg,
+rgba(255,255,255,.08),
+rgba(255,255,255,.03)
+);
+
+
+border:
+1px solid rgba(255,255,255,.12);
+
+
+box-shadow:
+
+0 20px 50px rgba(0,0,0,.35);
+
+
+backdrop-filter:
+blur(20px);
+
 
 }
+
 
 
 .about-card:hover,
@@ -1557,35 +1581,91 @@ button:hover {
 .project-card:hover,
 .contact-item:hover {
 
-  border-color:#38bdf8;
+
+border-color:#38bdf8;
+
+
+box-shadow:
+
+0 0 35px rgba(56,189,248,.25);
+
+
+transform:
+translateY(-12px);
+
 
 }
+
+
+
+/* Sections */
+
+
+.about,
+.projects,
+.contact {
+
+background:
+linear-gradient(
+180deg,
+#070b18,
+#030712
+);
+
+}
+
+
+
+.services,
+.careers {
+
+background:
+#030712;
+
+}
+
 
 
 /* Icons */
 
+
 .service-icon,
 .project-icon {
 
-  color:#38bdf8;
+color:#38bdf8;
+
+filter:
+drop-shadow(
+0 0 10px rgba(56,189,248,.6)
+);
 
 }
 
 
-/* Tech tags */
+
+/* Tech Tags */
+
 
 .tech-list span {
 
-  background:rgba(56,189,248,.12);
 
-  border-color:rgba(56,189,248,.3);
+background:
+rgba(56,189,248,.12);
 
-  color:#38bdf8;
+
+border:
+1px solid rgba(56,189,248,.35);
+
+
+color:#38bdf8;
+
 
 }
 
 
-/* Forms */
+
+/* Forms Premium */
+
 
 .contact-form input,
 .contact-form textarea,
@@ -1593,9 +1673,14 @@ button:hover {
 .career-form textarea,
 .career-form select {
 
-  background:#070b18;
 
-  border-color:rgba(56,189,248,.25);
+background:
+rgba(255,255,255,.05);
+
+
+border:
+1px solid rgba(56,189,248,.25);
+
 
 }
 
@@ -1606,63 +1691,120 @@ button:hover {
 .career-form textarea:focus,
 .career-form select:focus {
 
-  border-color:#38bdf8;
+
+box-shadow:
+
+0 0 20px rgba(56,189,248,.25);
+
+
+border-color:#38bdf8;
+
 
 }
 
 
-/* Resume Upload */
+
+/* Resume Box */
+
 
 .resume-upload {
 
-  border-color:rgba(56,189,248,.5);
+
+background:
+rgba(56,189,248,.05);
+
+
+box-shadow:
+
+inset 0 0 30px rgba(56,189,248,.1);
+
 
 }
+
 
 
 /* Footer */
 
+
 .footer {
 
-  background:#020617;
+
+background:
+#020617;
+
+
+border-top:
+
+1px solid rgba(56,189,248,.15);
+
 
 }
+
 
 
 .footer span {
 
-  color:#38bdf8;
+
+color:#38bdf8;
+
 
 }
 
 
-/* AI circles */
+
+/* Floating AI Circles */
+
 
 .ai-circle {
 
-  border-color:rgba(56,189,248,.3);
+
+border-color:
+rgba(56,189,248,.35);
+
+
+box-shadow:
+
+0 0 30px rgba(56,189,248,.15);
+
 
 }
+
 
 
 /* Loading */
 
+
 .loading-screen {
 
-  background:#030712;
+
+background:
+#030712;
+
 
 }
 
 
 .loader-logo {
 
-  color:#38bdf8;
+
+color:#38bdf8;
+
+
+text-shadow:
+
+0 0 25px rgba(56,189,248,.7);
+
 
 }
 
 
-.loader-circle {
+/* Smooth animation */
 
-  border-top-color:#38bdf8;
+
+* {
+
+transition:
+background-color .3s ease,
+border-color .3s ease;
 
 }
