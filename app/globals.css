@@ -1412,3 +1412,257 @@ h2 {
 
 
 }
+/* ================= PREMIUM AI THEME UPDATE ================= */
+
+
+body {
+  background:#030712;
+  color:white;
+}
+
+
+/* Navbar */
+
+.navbar {
+
+  background:rgba(3,7,18,0.75);
+
+}
+
+
+.logo {
+
+  color:#38bdf8;
+
+}
+
+
+.navbar li:hover {
+
+  color:#38bdf8;
+
+}
+
+
+/* Headings */
+
+h2 {
+
+  color:#38bdf8;
+
+}
+
+
+/* Hero */
+
+.hero::before {
+
+  background:#6366f1;
+
+}
+
+
+.hero h1 {
+
+  background:linear-gradient(
+    90deg,
+    #38bdf8,
+    #6366f1
+  );
+
+  -webkit-background-clip:text;
+
+  color:transparent;
+
+}
+
+
+/* Buttons */
+
+button {
+
+  background:linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+}
+
+
+button:hover {
+
+  background:#38bdf8;
+
+  color:#030712;
+
+}
+
+
+/* Sections */
+
+
+.about {
+
+  background:#070b18;
+
+}
+
+
+.services {
+
+  background:#030712;
+
+}
+
+
+.projects {
+
+  background:#070b18;
+
+}
+
+
+.careers {
+
+  background:#030712;
+
+}
+
+
+.contact {
+
+  background:#070b18;
+
+}
+
+
+/* Cards */
+
+.about-card,
+.service-card,
+.project-card,
+.contact-item,
+.career-box {
+
+  background:rgba(255,255,255,0.05);
+
+  border-color:rgba(56,189,248,0.25);
+
+}
+
+
+.about-card:hover,
+.service-card:hover,
+.project-card:hover,
+.contact-item:hover {
+
+  border-color:#38bdf8;
+
+}
+
+
+/* Icons */
+
+.service-icon,
+.project-icon {
+
+  color:#38bdf8;
+
+}
+
+
+/* Tech tags */
+
+.tech-list span {
+
+  background:rgba(56,189,248,.12);
+
+  border-color:rgba(56,189,248,.3);
+
+  color:#38bdf8;
+
+}
+
+
+/* Forms */
+
+.contact-form input,
+.contact-form textarea,
+.career-form input,
+.career-form textarea,
+.career-form select {
+
+  background:#070b18;
+
+  border-color:rgba(56,189,248,.25);
+
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.career-form input:focus,
+.career-form textarea:focus,
+.career-form select:focus {
+
+  border-color:#38bdf8;
+
+}
+
+
+/* Resume Upload */
+
+.resume-upload {
+
+  border-color:rgba(56,189,248,.5);
+
+}
+
+
+/* Footer */
+
+.footer {
+
+  background:#020617;
+
+}
+
+
+.footer span {
+
+  color:#38bdf8;
+
+}
+
+
+/* AI circles */
+
+.ai-circle {
+
+  border-color:rgba(56,189,248,.3);
+
+}
+
+
+/* Loading */
+
+.loading-screen {
+
+  background:#030712;
+
+}
+
+
+.loader-logo {
+
+  color:#38bdf8;
+
+}
+
+
+.loader-circle {
+
+  border-top-color:#38bdf8;
+
+}
