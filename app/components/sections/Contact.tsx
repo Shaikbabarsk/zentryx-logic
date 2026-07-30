@@ -157,7 +157,7 @@ digital technologies.
 <p>
 📧 Email:
 <br/>
-shaikbabar011@gmail.com
+zentryxlogic@gmail.com
 </p>
 
 
